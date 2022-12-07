@@ -1,0 +1,203 @@
+body {
+    background-color: #8f9ea6;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px; 
+}
+
+/* header styling*/
+header {
+    padding: 5px;
+}
+
+#melkweg {
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px 0px 10px;
+}
+
+#melkweg img {
+    height: auto;
+    width: 100%;
+}
+
+#melkweg h1 {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    color:white;
+    font-weight: bold;
+    font-size: 3em;
+    letter-spacing: 10px;
+}
+
+/*Navigation styling*/
+nav {
+    background-color: #2f3444;
+    text-align: center;
+    margin: 0px 10px;
+}
+
+ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    letter-spacing: 3px;
+    height: 22px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: #2f3444;
+    border: 0px 1px 0px 2px solid #2f3444;
+}
+
+li:hover {
+    background-color: #878ea7;
+    border-style: none;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+/*Footer styling*/
+footer {
+    background-color: #2f3444;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin: 5px 15px 0px 15px;
+    padding: 5px;
+}
+
+#copyright { 
+    position: relative;
+    font-size: 18px;
+    color: white;  
+    width: 100%;
+    margin: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+/*Styling - main*/
+
+main {
+    display: block;
+    text-align: center;
+}
+
+/*Styling - homepage*/
+#aboutme {
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items:center;
+    padding: 10px;
+    background-color: #74767d;
+    margin: 0px 15px 0px 15px;
+}
+
+td img {
+    height: auto;
+    width: 100%;
+}
+
+#info {
+    background-color: #5b6466;
+    color: white;
+    width: 70%;
+    height: 500px;
+    font-size: 14px;
+    padding: 0px 20px;
+}
+
+/*Styling - cvpage*/
+
+#aboutme h2 {
+    color: black;
+    font-weight: bold;    
+}
+
+.cvtabel {
+    text-align: left;
+    width: 100%;
+    border: 2px solid #2f3444;  
+}
+
+.cvtabel tr {
+    background-color: #5b6466;
+}
+.cvtabel td {
+    height: 30px;
+    padding: 5px 20px 5px 5px;
+    color: white;
+}
+
+.cvtabel th {
+    height: 30px;
+    padding: 5px 20px 5px 5px;
+    background-color: #2f3444;
+    color: white;
+}
+
+/*Styling - contactpage*/
+#contactformulier {
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items:center;
+    padding: 5px;
+    background-color: #74767d;
+    margin: 0px 15px 0px 15px;
+}
+
+input, textarea, form h2 {
+    display: block;
+    margin: 10px;
+    width: 400px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: none;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+textarea {
+    height: 150px;    
+}
+
+form h2 {
+    color: white;
+}
+
+#verzendknop {
+    background-color: darkgreen;
+    color: white;
+    display: inline-block;
+    width: 160px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+}
+
+#verzendknop:active {
+    color: lightgreen;
+}
+
+#verzendknop:hover {
+    background-color: lightgray;
+    color:darkgreen;
+}
